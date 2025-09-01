@@ -16,6 +16,6 @@ WORKDIR /app
 RUN useradd -r -u 10001 spring
 USER spring
 COPY --from=build /app/target/app.jar /app/app.jar
-EXPOSE 6001
+EXPOSE 6002
 ENV JAVA_OPTS="-XX:MaxRAMPercentage=75 -XX:+UseContainerSupport"
 ENTRYPOINT ["sh","-c","java $JAVA_OPTS -jar /app/app.jar"]

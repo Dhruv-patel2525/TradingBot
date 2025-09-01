@@ -4,9 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7fb602f-e51e-4f9e-9c0f-fc638596b47e" name="Changes" comment="Market DataService">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a7fb602f-e51e-4f9e-9c0f-fc638596b47e" name="Changes" comment="git ignore file">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackTestService/src/main/java/com/tb/backtestservice/model/CandleEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackTestService/src/main/java/com/tb/backtestservice/service/client/MarketDataClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackTestService/src/main/java/com/tb/backtestservice/service/client/RestMarketDataClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackTestService/src/main/java/com/tb/backtestservice/service/strategy/TradingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketDataService/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketDataService/src/main/java/com/tb/marketdataservice/controller/MarketDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketDataService/src/main/java/com/tb/marketdataservice/kafka/CandlePublisherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketDataService/src/main/java/com/tb/marketdataservice/model/Candle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketDataService/src/main/java/com/tb/marketdataservice/model/CandleEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketDataService/src/main/java/com/tb/marketdataservice/repository/CandleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketDataService/src/main/java/com/tb/marketdataservice/service/MarketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e6be3cd0-bdec-4c3c-9216-bfa081be7c99.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e6be3cd0-bdec-4c3c-9216-bfa081be7c99.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackTestService/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/BackTestService/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackTestService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BackTestService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackTestService/src/main/java/com/tb/backtestservice/controller/BackTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackTestService/src/main/java/com/tb/backtestservice/controller/BackTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackTestService/src/main/java/com/tb/backtestservice/kafka/CandleEventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackTestService/src/main/java/com/tb/backtestservice/kafka/CandleEventConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackTestService/src/main/java/com/tb/backtestservice/model/Candle.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackTestService/src/main/java/com/tb/backtestservice/model/Candle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackTestService/src/main/java/com/tb/backtestservice/service/BackTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackTestService/src/main/java/com/tb/backtestservice/service/BackTestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackTestService/src/main/java/com/tb/backtestservice/service/StrategyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackTestService/src/main/java/com/tb/backtestservice/service/StrategyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackTestService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BackTestService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketDataService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MarketDataService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketDataService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MarketDataService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,21 +41,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="321EHA8CvYqAa9Bz1eRF9O7ySYu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,6 +66,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Docker.backtest-service-db.executor": "Run",
+    "Docker.backtest-service.executor": "Run",
+    "Docker.marketdata-service-db.executor": "Run",
+    "Docker.marketdata-service.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -49,10 +77,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.BackTestServiceApplication.executor": "Run",
+    "Spring Boot.MarketDataServiceApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/dhruvpatel/IdeaProjects/TradingBotArchitecture/BackTestService",
+    "last_opened_file_path": "/Users/dhruvpatel/IdeaProjects/TradingBotArchitecture/MarketDataService",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,10 +100,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MarketDataService" />
       <recent name="$PROJECT_DIR$/BackTestService" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tb.backtestservice.model" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.BackTestServiceApplication">
+  <component name="RunManager" selected="Docker.backtest-service">
     <configuration name="BackTestServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="BackTestService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tb.backtestservice.BackTestServiceApplication" />
@@ -131,8 +164,91 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="backtest-service" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="backtest-service:latest" />
+          <option name="containerName" value="backtest-service" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="6001" />
+                <option name="hostPort" value="6001" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network bot" />
+          <option name="sourceFilePath" value="BackTestService/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="marketdata-service-db" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="postgres:latest" />
+          <option name="containerName" value="marketdata-service-db" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_DB" />
+                <option name="value" value="db" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_PASSWORD" />
+                <option name="value" value="1234" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_USER" />
+                <option name="value" value="postgres" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="5432" />
+                <option name="hostPort" value="5001" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network bot" />
+          <option name="volumeBindings">
+            <list>
+              <DockerVolumeBindingImpl>
+                <option name="containerPath" value="/var/lib/postresql/data" />
+                <option name="hostPath" value="$USER_HOME$/Documents/db_volumnes/marketdata-service-db/" />
+              </DockerVolumeBindingImpl>
+            </list>
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="marketdata-service" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="marketdata-service" />
+          <option name="containerName" value="marketdata-service" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="6002" />
+                <option name="hostPort" value="6002" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network bot" />
+          <option name="sourceFilePath" value="MarketDataService/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Docker.backtest-service" />
+      <item itemvalue="Docker.marketdata-service" />
       <item itemvalue="Docker.backtest-service-db" />
+      <item itemvalue="Docker.marketdata-service-db" />
       <item itemvalue="Spring Boot.MarketDataServiceApplication" />
       <item itemvalue="Spring Boot.BackTestServiceApplication" />
     </list>
@@ -152,7 +268,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756579589368</updated>
-      <workItem from="1756579590885" duration="7905000" />
+      <workItem from="1756579590885" duration="16132000" />
+      <workItem from="1756669136013" duration="7744000" />
+      <workItem from="1756677383750" duration="4059000" />
     </task>
     <task id="LOCAL-00001" summary="Created the backtest service and marketDataservice.">
       <option name="closed" value="true" />
@@ -170,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756588104822</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="git ignore file">
+      <option name="closed" value="true" />
+      <created>1756588192530</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756588192530</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +305,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created the backtest service and marketDataservice." />
     <MESSAGE value="Market DataService" />
-    <option name="LAST_COMMIT_MESSAGE" value="Market DataService" />
+    <MESSAGE value="git ignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="git ignore file" />
   </component>
 </project>

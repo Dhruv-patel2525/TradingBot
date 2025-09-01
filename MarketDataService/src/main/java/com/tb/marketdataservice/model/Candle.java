@@ -1,4 +1,4 @@
-package com.tb.backtestservice.model;
+package com.tb.marketdataservice.model;
 
 import jakarta.persistence.*;
 
@@ -12,6 +12,7 @@ public class Candle {
     private UUID id;
     private String symbol;
     private String interval;
+
     private long timestamp;
     private Double open;
     private Double high;
